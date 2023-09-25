@@ -35,6 +35,7 @@ const SignInScreen = ({navigation}) => {
       setIsLoading(true);
       try {
         try {
+          Alert.alert('로그인 성공');
           // 로그인 성공 후 메인 화면으로 이동
           navigation.navigate('Main');
         } catch (e) {
