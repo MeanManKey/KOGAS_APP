@@ -7,4 +7,4 @@ npx react-native run-android
 
 # ERROR
 adb devices 
-기기이름  device라고 떠야함. offline X
+기기이름  device라고 떠야함. offline X 
